@@ -7,8 +7,6 @@ import altair as alt
 st.set_page_config(page_title='Interactive Data Explorer', page_icon='📊')
 st.title('📊 Interactive Data Explorer')
 
-st.title["this is the app title"]
-
 st.title ("this is the app title") 
 st. header("this is the markdown")
 st.markdown("this is the header")
@@ -31,3 +29,10 @@ x = st.slider('Pick a number', 0,50)
 
 st.write('성별',gender)
 st.write('행성', planet)
+
+st.number_input('Pick a number', 0,10)
+#st.text_ input('Email address') st.date_input('Travelling date')
+#st.time_input('School time')
+#st. text_area('Description"
+#st.file_uploader('Upload a photo’)
+Color = st.color_picker('Choose your favorite color')
